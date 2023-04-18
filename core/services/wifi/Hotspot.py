@@ -229,6 +229,9 @@ class HotspotManager:
             "wpa_key_mgmt=WPA-PSK\n"
             "wpa_pairwise=TKIP\n"
             "rsn_pairwise=CCMP\n"
+            "ieee80211ac=1\n"
+            "vht_capab=[MAX-AMSDU-3839][MAX-AMPDU-7991][VHT160]\n"
+            "vht_oper_centr_freq_seg0_idx=42\n"
         )
 
     def _create_temp_config_file(self) -> None:
