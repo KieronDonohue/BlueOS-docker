@@ -230,7 +230,10 @@ class HotspotManager:
             "wpa_pairwise=TKIP\n"
             "rsn_pairwise=CCMP\n"
             "ieee80211ac=1\n"
-            "vht_capab=[MAX-AMSDU-3839][MAX-AMPDU-7991][VHT160]\n"
+            "require_vht=1\n"
+            "vht_capab=[MAX-AMSDU-3839][SHORT-GI-80]\n"
+            "vht_oper_chwidth=1\n"
+            "channel=36\n"
             "vht_oper_centr_freq_seg0_idx=42\n"
         )
 
